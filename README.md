@@ -2,6 +2,16 @@
 
 Partial rewriting of MiniMax H3 latents. Pure PyTorch - nothing here imports ComfyUI.
 
+> **Read this before your company adopts it.** This is not an open source licence. It is
+> PolyForm Small Business 1.0.0: free for individuals, and free for a company with **fewer than
+> 100 people** (employees and contractors combined) **and under USD 1,000,000 revenue** in the
+> prior tax year. Below that line commercial work is fine - the threshold is about your size, not
+> about what you do with it. Above it, use needs a paid licence. Nothing phones home and nothing
+> checks; you are expected to read the line and act on it.
+> [`COMMERCIAL.md`](https://github.com/panghea/minimax-h3-latent-core/blob/main/COMMERCIAL.md)
+> says how to get one. What you generate is yours either way - the licence makes no claim on the
+> output.
+
 An H3 latent is two tensors:
 
 ```
