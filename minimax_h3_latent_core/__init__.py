@@ -23,7 +23,7 @@ from .timing import (frames_to_pct, snap_to_latent, describe, snap_length,
                      valid_length, latent_frames_for, frames_for_latent)
 from .extend import extend_tensors, scale_audio, extend_masks, plan as extend_plan
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 __all__ = [
     'ramp', 'build_masks', 'is_video', 'track_is_free',
     'TRACK_AUDIO', 'TRACK_VIDEO', 'TRACK_BOTH',

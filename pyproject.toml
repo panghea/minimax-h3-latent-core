@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "minimax-h3-latent-core"
-version = "0.1.0"
+version = "0.1.1"
 description = "Partial rewriting of MiniMax H3 latents. Pure PyTorch, no ComfyUI."
 readme = "README.md"
 requires-python = ">=3.9"
