@@ -1,0 +1,4 @@
+# The licence terms are the point of this package, so the dual-licence documents travel with the
+# sdist. LICENSE itself is already carried by the license-files field in pyproject.toml.
+include COMMERCIAL.md
+include CONTRIBUTING.md

@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=77"]          # 77+ is what understands the PEP 639 license fields
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "minimax-h3-latent-core"
+version = "0.1.0"
+description = "Partial rewriting of MiniMax H3 latents. Pure PyTorch, no ComfyUI."
+readme = "README.md"
+requires-python = ">=3.9"
+# PEP 639: an SPDX expression, not a table. The table form was removed on 2026-02-18.
+license = "PolyForm-Small-Business-1.0.0"
+license-files = ["LICENSE"]
+authors = [{ name = "panghea", email = "panghea.develop@gmail.com" }]
+keywords = ["minimax-h3", "latent", "video", "diffusion", "inpainting"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia :: Video",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = ["torch", "safetensors", "numpy"]
+
+[project.urls]
+Homepage = "https://github.com/panghea/minimax-h3-latent-core"
+Issues = "https://github.com/panghea/minimax-h3-latent-core/issues"
+Commercial = "https://github.com/panghea/minimax-h3-latent-core/blob/main/COMMERCIAL.md"
+
+[tool.setuptools]
+packages = ["minimax_h3_latent_core"]
