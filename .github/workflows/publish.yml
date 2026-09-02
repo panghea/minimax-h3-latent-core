@@ -10,11 +10,18 @@ on:
   release:
     types: [published]
 
+# Nothing is granted by default; each job asks for exactly what it needs.
+permissions: {}
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v7
+        with:
+          persist-credentials: false   # the build needs no token left behind in .git/config
       - uses: actions/setup-python@v7
         with:
           python-version: "3.11"
